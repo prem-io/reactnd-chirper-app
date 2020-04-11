@@ -20,7 +20,7 @@ a {
   text-transform: uppercase;
   margin: 35px auto;
   padding: 10px;
-  border: 1px solid rgba(0,0,0,.29);
+  border: 1px solid rgba(0, 0, 0, 0.29);
   cursor: pointer;
   background: #fff;
   font-size: 16px;
@@ -29,7 +29,7 @@ a {
 }
 
 .btn:hover {
-  border-color: rgba(0,0,0,.5);
+  border-color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ li {
   padding: 10px;
   display: flex;
   margin: 0 auto;
-  border: 1px solid #dad7d7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
   cursor: pointer;
 }
@@ -153,11 +153,11 @@ li {
   padding: 10px;
   font-size: 15px;
   height: 100px;
+  resize: none;
 }
 
 .tweet-length {
   text-align: right;
   margin-top: 10px;
-  font-size: 20px;
-  color: #C3392A;
+  font-size: 15px;
 }
